@@ -146,3 +146,18 @@ main h1, main h2 {
         margin-top: 5px;
     
       }
+
+      /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftside {   
+  float: left;
+  width: 74%;
+}
+
+/* Right column */
+.rightside {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
