@@ -1,0 +1,148 @@
+/* Sets the overall font style and colour */
+
+body {
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    font-family: Times, "Times New Roman", Georgia, serif;
+    
+    font-size: 14pt;
+    
+    color: #333333;
+        
+}
+
+/* Header */
+/* Creates the top navigation bar-Adds the red underline when item is being hovered over or fucused on */
+
+header {
+    
+  background-color: #333333;
+    
+  color: #fefefe;
+    
+  width: 100%;
+    
+}
+
+header a {
+    
+  font-size: 120%;
+    
+}
+
+header a.current,
+
+header a:hover,
+
+header a:focus {
+    
+  border-bottom: 3px solid #ff0000;
+    
+}
+
+/* Main Area */
+
+/* Sets the size if the images displayed */
+
+img.thumbnail {
+    
+  width: 300px;
+    
+  height: 300px;
+    
+}
+
+/* Creates a table to house the images within to ensure they do not take up more than the 75% of screen space */
+
+.column {
+    
+  float: left;
+    
+  width: 25%;
+    
+  padding: 0px;
+    
+}
+
+/* Clear floats after image containers to maintain the proper layout */
+
+.row::after {
+    
+  content: "";
+    
+  clear: both;
+    
+  display: table;
+    
+}
+
+/* Adds the margin between the main header and nav bar - removes the space between the main header and sub header */
+
+main {
+    
+  margin-top: 20px;
+    
+}
+
+main h1, main h2 {
+    
+  margin: 0;
+    
+}
+
+/* Removes the hyperlinks colour and underline unless focused on or hovered over */
+
+.link:link {
+
+    text-decoration: none;
+    
+    color: #333333;
+
+}
+
+.link:focus,
+
+.link:hover {
+
+    text-decoration: underline; 
+
+}
+
+/* News */
+/* Adds the text container to hold the news to the right side with a width of no more than 25% */
+
+.text-container {
+    
+        width: 25%;
+    
+        right: 0;
+    
+        overflow: auto;
+    
+      }
+
+/* Setting the news articles given specifications */
+
+.news-item {
+    
+        margin-bottom: 15px;
+    
+      }
+
+.news-item h3 {
+    
+        margin: 0;
+    
+        padding: 0;
+    
+      }
+
+
+.news-item .date {
+    
+        margin-top: 5px;
+    
+      }
